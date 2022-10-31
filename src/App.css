@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #000;
+  color: antiquewhite;
+}
+
+.App {
+  text-align: center;
+}
+
+.listItem{
+  border: 1px solid #fff;
+   padding: 5px 10px; 
+   margin: 25px; 
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.text-wrapper{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.link-reminder{
+  width: 100%;
+  height: 10%;
+  font-size: .65em;
+  color: #fff;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width: 768px){
+  .listItem{
+    flex-direction: row;
+  }
+  p.listItem-p{
+    text-align: left;
+    margin: 0 0 0 1rem;
+    padding: 1rem 0;
+  }
+  .text-wrapper h3{
+    text-align: left;
+    margin: 0 0 0 1rem;
+  }
+}
+
+button{
+  margin: 1rem;
+  background-color: goldenrod;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+ul{
+  text-align: 'left'; 
+  list-style: 'none';
+}
+
+ul li{
+  overflow: hidden;
+}
+
+h3{
+  text-transform: uppercase; 
+  text-decoration: underline; 
+}
+
+img{
+  width: 100%;
+  max-width: 300px; 
+  height: auto;
+}
+
+.listItem-p{
+  padding: 1rem; 
+  width: 75%;
+  margin: 0 auto;
+}
