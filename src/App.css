@@ -1,8 +1,11 @@
 *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  padding: 0;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   background-color: #000;
@@ -11,6 +14,7 @@ body {
 
 .App {
   text-align: center;
+  padding: 1rem 3rem;
 }
 
 .listItem{
@@ -29,10 +33,10 @@ body {
    margin: 25px auto;
 }
 
-.listItem:hover{
+/* .listItem:hover{
   position: relative;
   transform: translateY(-5px) scale(101%)
-}
+} */
 
 .text-wrapper{
   position: relative;
@@ -70,6 +74,11 @@ button{
   color: #fff;
   border-radius: 5px;
   border: 1px solid #fff;
+  padding: 5px 15px;
+}
+input{
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 
 ul{
@@ -90,6 +99,8 @@ img{
   width: 100%;
   max-width: 300px; 
   height: auto;
+  margin: 1rem;
+  border: 1px solid;
 }
 
 .listItem-p{
