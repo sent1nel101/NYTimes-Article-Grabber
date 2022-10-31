@@ -22,7 +22,6 @@ const ModuleTwo = () => {
         <div class="text-wrapper">
         <a class="listLink" style="color: #fff" href="${article.web_url}" target="_blank"><h3><strong>${article.headline.main}</strong></h3></a>
         <p class="listItem-p">${article.snippet}</p>
-        <p class="link-reminder">Click the headline to view the article at the NY Times</p>
         </div>
         <img src="https://www.nytimes.com/${article.multimedia[7].url}"></div>
         `
@@ -41,6 +40,7 @@ const ModuleTwo = () => {
       <p>Enter a topic to search current headlines</p>
       <input type="text" name="searchBar" id="searchBar" />
       <button onClick={handleClick}>Populate Top Headlines</button>
+      <p class="link-reminder">Click the headline to view the article at the NY Times</p>
       <ul id="ulElement"></ul>
       </div>
   )
